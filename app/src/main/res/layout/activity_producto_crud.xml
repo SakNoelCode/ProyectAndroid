@@ -6,4 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".productoCrud">
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="213dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="40dp"
+        android:text="Productos y Platos"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="265dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="26dp"
+        android:onClick="registrarProducto"
+        android:text="Agregar "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="262dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="50dp"
+        android:text="Editar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="262dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="60dp"
+        android:text="Eliminar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="40dp"
+        android:text="Buscar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
